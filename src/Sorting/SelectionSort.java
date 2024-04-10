@@ -41,7 +41,7 @@ public class SelectionSort {
         }
     }
 
-    // Sap xep noi bot tang dan
+    // Sap xep chon tang dan
     private static void selectionSortAsc(int[] a, int n) {
         for (int i = 0; i < n; i++) {
             int min_index = i;
@@ -59,7 +59,7 @@ public class SelectionSort {
         }
     }
 
-    // Sap xep noi bot giam dan
+    // Sap xep chon giam dan
     private static void selectionSortDesc(int[] a, int n) {
         for (int i = 0; i < n; i++) {
             int max_index = i;

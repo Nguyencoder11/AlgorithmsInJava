@@ -41,7 +41,7 @@ public class InsertionSort {
         }
     }
 
-    // Sap xep noi bot tang dan
+    // Sap xep chen tang dan
     private static void insertionSortAsc(int[] a, int n) {
         for (int i = 0; i < n; i++) {
             int tempElement = a[i];
@@ -54,7 +54,7 @@ public class InsertionSort {
         }
     }
 
-    // Sap xep noi bot giam dan
+    // Sap xep chen giam dan
     private static void insertionSortDesc(int[] a, int n) {
         for (int i = 0; i < n; i++) {
             int tempElement = a[i];
